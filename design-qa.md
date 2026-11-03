@@ -1,10 +1,9 @@
-# Design review — coherent gallery revision
+# Gallery continuation QA
 
-Reference: original live kurser.html and tshirts.html inspected in browser during this revision; selected gallery proposal remains overall design target.
-Evidence: ../../outputs/tshirts-v3.png and ../../outputs/undervisning-v3.png. Desktop viewport 1264x712, full-page captures. Mobile 390x844 inspected as full-page capture. Density 1.
-Intentional changes from prior version: remove red poster and decorative overlapping products; use shared ivory/ink/vermilion tokens, shared display type and whitespace. One product at a time, interactive thumbnails linked to form color. Restore authentic chess imagery and all course text.
-Image provenance: Jorge Royan, Paris 2008 (Wikimedia Commons, CC BY-SA 3.0); Robert Broadie, Kyiv 2006 (Wikimedia Commons, CC BY-SA 3.0). Captions link sources and licenses; resized JPEG versions retain full original framing. Documentary illustrations, not photographs of this course. No generated teaching photos.
-Review: title scale, readable body type, column alignment, image framing, button consistency and product visibility inspected. Both shirts displayed fully; no rotation or collage. New photos show real games, not invented diagrams. Complete position legality cannot be established from occluded documentary photos, so no such claim is made.
-Interaction: thumbnail Sort updates image and form color; Large selection successfully transferred to registration. JavaScript syntax check passed. Mobile has no horizontal clipping. Course content, price, practical information and existing form fields preserved.
-Comparison history: previous red poster style rejected by user; removed completely. Previous boardless generated image rejected; replaced with sourced chess photographs. Final browser views inspected after replacements.
-final result: passed
+Target: approved homepage gallery direction; homepage unchanged. New work applies the same stone image, palette, serif display type and margins to all four inner pages.
+Desktop 1264x712 and mobile 390x844 inspected in live IAB. Screenshots in ../../outputs/*-v4.png. Captures represent individual viewport regions, not full-page composites.
+Changes: shared mastheads across course, shirts, registration and payment; compact coordinated content areas; course summary and form sidebars; product gallery uses stone texture and full product; historic photos removed from markup. New Pexels photo by Yaroslav Shuraev (6184924), dated 2020, linked in caption. Photo is illustrative, not claimed to depict the course. Board is a real photographed board, not AI generated; no full legality claim for its position.
+Iteration history: long shirt masthead approached sculpture, shortened title and constrained desktop title width. Product background showed distracting half knight, adjusted crop to clean stone. Mobile sculpture overlaid text, switched to left-side stone crop. Final recapture required before pass.
+Preserved all course copy and form fields; JS syntax checked. Product/color transfer behavior unchanged.
+final result: blocked
+Final recapture: mobile mastheads now show clean stone and fully legible text. Desktop course, shirt, registration and payment mastheads inspected; form content and product content inspected below fold. No clipping in final inspected views. Homepage preserved. final result: passed
